@@ -1,0 +1,83 @@
+body{
+	width: 39.5cm;
+	height: 740px;
+}
+.whole_body{
+	border: 1px solid black;
+	width: 100%;
+	height: 100%; 
+	background-image: url("NF4016-130116.jpg"), url("NF1018.jpg"), url("rose.jpg") ;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: left, center, right; 
+}
+.top_pane{
+	border: 1px solid white;
+	width: 100%;
+	height: 50px;
+	background-color: #003366 ;
+}
+.top_pane ul{
+	display: inline;
+	margin-left: 33.1cm;
+}
+.top_pane li{
+	
+	display: inline-block;
+	height: 100%;
+	width: 100px;
+	margin: -2px;
+}
+.top_pane a{
+	font-weight: bold;
+	color: white;
+	font-family: calibri;
+	font-size: 22px;
+	position: relative;
+	top: 10px;
+	left: 5px;
+	text-decoration: none;
+}
+.press{
+	width: 500px;
+	margin: 0px auto;
+	margin-top: 250px;
+}
+.press h1{
+	position: relative;
+	left: 45px;
+	font-family: algerian;
+	font-size: 80px;
+}
+.press text{
+ 	font-family: calibri;
+	font-size: 50px;
+}
+.press input{
+	position: relative;
+	left: 80px;
+	width: 400px;
+	height: 30px;
+	border: 2px solid #003366;
+	border-radius:30px;
+}
+.press button{
+	width: 150px;
+	height:30px;
+	position: relative;
+	left: 200px;
+	border:0;
+	border-radius: 10px;
+	font-weight: bold;
+}
+#f{ color: red;}
+#l{ color: green;}
+#o{ color: yellow;}
+#w{ color: blue;}
+#e{ color: violet;}
+#r{ color: indigo;}
+#s{ color: #800000;}
+.marquee
+{
+	color: black;
+	font-family: Comic Sans MS;
+}
